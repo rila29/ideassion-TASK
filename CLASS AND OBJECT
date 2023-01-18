@@ -1,0 +1,14 @@
+
+// class and object in java script
+class Studentcontainer{
+    constructor(sname,sage){
+
+        this.sname=sname;
+        this.sage=sage;
+    }
+    welcomegreeting(){
+        console.log(`my Nmae is ${this.sname},and my Age is ${this.sage}`);
+    }
+}
+const stu=new Studentcontainer("Ibrahim Rila","24");
+stu.welcomegreeting();
