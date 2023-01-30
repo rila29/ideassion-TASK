@@ -1,0 +1,198 @@
+body,h2{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url('../img/logo.jpg');
+    background-size: cover;
+    background-position:center;
+    height: 115vh;
+    color:black;
+
+
+}
+header a{
+    text-decoration: none;
+    color:red;
+    font-weight:bolder ;
+    min-width: 120px;
+}
+header{
+    display: flex;
+    padding: .35em ;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    background-color: darkgray;
+}
+#logo{
+    flex: 7.5;
+    font-size: 2em;
+    min-width: 260px;
+    background-color: darkgray;
+}
+nav{
+    flex:2;
+    display:flex;
+    align-items: center;
+    background-color: darkgrey
+}
+nav a{
+
+    font-size: medium;
+}
+nav a:hover{
+    color:blue;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 36vh;
+    justify-content: center;
+    padding: .85em;
+}
+.tagline1{
+    color:gold;
+    font-size: 2.5em;
+    font-weight: bolder;
+    align-content: center;
+    text-align: justify;
+    
+}
+.tagline2{
+    color: black;
+    font-weight: bolder;
+
+}
+.maintext div{
+    margin-top: .65em;
+}
+.maintext button{
+    width: 9vw;
+    margin-top: 2em;
+    border-radius: 4px;
+    padding: .2em;
+    background-color:black;
+    color: white;
+    text-align:center;
+
+}
+h1{
+    color: blue;
+}
+.menu{
+    display: grid;
+    background:darkgray;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    
+}
+#menuheading,#location{
+    background: darkgray;
+    font-size: 2.5em;
+    color: brown;
+    text-align: center;
+    
+}
+.menu th{
+    color:green ;
+    font-size: 1.8em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content:center ;
+    margin-top: .5em;
+}
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self:left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.maincourse{
+    grid-row:span 2;
+
+}
+.locationheading{
+    background:darkgrey;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.locationheading h2{
+    color: green;
+    margin-bottom: .8em;
+     
+}
+.locationheading div{
+    flex:1;
+    padding:1em;
+    min-width: 220px;
+}
+footer{
+    
+    color: black;
+    padding: .25em 1 em;
+    
+}
+header h2 i, nav a i{
+    margin-right: .2em;
+}
+.tagline3{
+    font-weight: bolder;
+}
+.footer button{
+    background-color: black;
+    color: whitesmoke;
+}
+.ftr{
+    background-color:burlywood;
+
+}
+.btn_home{
+    background-color:black;
+    margin-left:91.7% ;
+    color:whitesmoke;
+}
+h2{
+    font-size: medium;
+}
+.about{
+    background-color:darkgrey;
+    background-image:url(../img/cherry.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+#us {
+     text-align: center;
+     background-color:darkkhaki;
+     color: green;
+}
+#all{
+    display: flex;
+    padding-left:.43em;
+    text-align: justify;
+    padding-top:.25em;
+    background-color: darkkhaki;
+    margin: 0;
+    padding-right: .45em;
+}
+#fot{
+    background-color:darkkhaki;
+    margin-bottom: .20em;
+    height: .20em;
+
+}
+.submit{
+    margin-bottom: .20em;
+    margin-left:91.7% ;
+    color:whitesmoke;
+    background-color: black;
+}
+.foot{
+    background-color: darkgray;
+}
+
